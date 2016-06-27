@@ -7,7 +7,7 @@ import mock
 from . import unittest
 
 from kafka.errors import ConnectionError
-from kafka.conn import KafkaConnection, DEFAULT_SOCKET_TIMEOUT_SECONDS
+from kafka.conn_legacy import KafkaConnection, DEFAULT_SOCKET_TIMEOUT_SECONDS
 from test.testutil import Timer
 
 
